@@ -48,6 +48,8 @@ Superscript example: H<sub>2</sub>O
 Subscript example: X<sup>2</sup>
 
 
+[.pTag line]Just a line of text.
+
 <br><br>
 ***
 ### Links
