@@ -1,4 +1,9 @@
 #Hii this is for testing
+This *is*{:.underline} some `code`{:#id}{:.class}.
+A [link](google.com){:rel='something'} and some **tools**{:.tools}.
+
+this *is italic*{::}*marked*{:.special} text
+
 **Version 2.4**
 
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
@@ -46,14 +51,6 @@ X^2^
 Superscript example: H<sub>2</sub>O
 
 Subscript example: X<sup>2</sup>
-
-
-[.header] Content title
-[.pTag line]Content description
-
-[.list]
-1. Item 1
-2. Item 2
 
 <br><br>
 ***
