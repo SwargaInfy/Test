@@ -1,5 +1,8 @@
 #Hii this is for testing
 
+* {:.done} done - Completed this
+* Not done yet
+
 **Version 2.4**
 
 {: .quote-tiny} Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
