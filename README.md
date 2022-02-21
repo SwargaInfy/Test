@@ -1,8 +1,6 @@
 #Hii this is for testing
-This *is*{:.underline} some `code`{:#id}{:.class}.
-A [link](google.com){:rel='something'} and some **tools**{:.tools}.
 
-this *is italic*{::}*marked*{:.special} text
+Test
 
 **Version 2.4**
 
