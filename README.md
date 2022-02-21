@@ -48,7 +48,7 @@ Superscript example: H<sub>2</sub>O
 Subscript example: X<sup>2</sup>
 
 
-#[.header] Content title
+[.header] Content title
 [.pTag line]Content description
 
 [.list]
