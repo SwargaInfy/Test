@@ -1,15 +1,15 @@
 #Hii this is for testing
 
-* [.header] done - Completed this
+* done - Completed this
 * Not done yet
 
 **Version 2.4**
 
-{:.quote-tiny} Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
+[:.quote-tiny] Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
 Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
 
 ## Headers (H2)
-{:.note} Make sure you don't use the single # for any headers. Only the title of your article should be an H1. This isn't just a visual thing, this will impact your SEO score in google.
+[:.note] Make sure you don't use the single # for any headers. Only the title of your article should be an H1. This isn't just a visual thing, this will impact your SEO score in google.
 Always start with the ##.
 
 ### Sub header level 3 (H3)
@@ -30,7 +30,7 @@ __This will also be bold__
 _You **can** combine them_
 ```
 
-{: .block} *This text will be italic*
+[:.block] *This text will be italic*
 _This will also be italic_
 
 **This text will be bold**
@@ -81,7 +81,7 @@ This doesn't work with our template. We have requested some code updates so that
 Another Item we are exploring is the ability to call the css that is used on the site. This isn't working yet. I will update once we have the functionality in place. There are two options IT is exploring. 
 We have requested that IT add this feature so we can call certain css properties into markdown.
 
-{:.greyHighlight}
+[:.greyHighlight]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 
