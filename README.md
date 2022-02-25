@@ -3,6 +3,11 @@
 * [.header]done - Completed this
 * Not done yet
 
+This *is*[.underline] some `code`[.quote].
+A [link](google.com) and some **tools**[.tools].
+
+this *is italic* *marked*[.special] text
+
 **Version 2.4**
 
 [.pTag line] Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
