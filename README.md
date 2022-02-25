@@ -3,10 +3,10 @@
 * [.header]done - Completed this
 * Not done yet
 
-This *is*[.underline] some `code`[.quote].
+[.quote]This *is* some `code`.
 A [link](google.com) and some **tools**[.tools].
 
-this *is italic* *marked*[.special] text
+this *is italic* [.special]*marked* text
 
 **Version 2.4**
 
