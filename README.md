@@ -1,6 +1,6 @@
 #Hii this is for testing
 
-#{:.header} Content title
+Content title
 {:.pTag line}Content description
 
 1. {:.quote} Item 1
