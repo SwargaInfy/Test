@@ -12,6 +12,12 @@ A [link](google.com) and some **tools**.
 
 this *{:.special}is italic* *marked* text
 
+
+This *{:.underline}is* some `{:#id}{:.class}code`.
+A [link](google.com) and some **{:.tools}tools**.
+
+this *is italic*{::}*{:.special}marked* text
+
 **Version 2.4**
 
 {:.pTag line} Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
