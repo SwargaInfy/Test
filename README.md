@@ -3,7 +3,7 @@
 #{:.header} Content title
 {:.pTag line}Content description
 
-{:.list}
+{:.note}
 1. Item 1
 2. Item 2
 
