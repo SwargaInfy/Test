@@ -3,7 +3,7 @@
 * {:.quote}done - Completed this
 * Not done yet
 
-[.quote]This *is* some `code`.
+{:.code-simple}This *is* some `code`.
 A [link](google.com) and some **tools**.
 
 this *{:.special}is italic* *marked* text
