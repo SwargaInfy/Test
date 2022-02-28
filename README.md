@@ -1,7 +1,6 @@
 #Hii this is for testing
 
-{:.greyHighlight}
-* done - Completed this
+* {:.done} done - Completed this
 * Not done yet
 
 {:.quote}This *is* some `code`.
