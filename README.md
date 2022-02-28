@@ -3,8 +3,7 @@
 #{:.header} Content title
 {:.pTag line}Content description
 
-{:.note}
-1. Item 1
+1. {:.quote} Item 1
 2. Item 2
 
 {:.quote}This *is* some `code`.
@@ -215,7 +214,7 @@ export FI_PROVIDER_PATH=${I_MPI_ROOT}/libfabric
 ***
 ## Lists
 ### Creating an ordered list
-1. First item  
+1. {:.quote}First item  
 2. Second item  
 3. Third item  
 4. Fourth item
