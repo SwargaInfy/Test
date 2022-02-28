@@ -6,7 +6,7 @@
 [.quote]This *is* some `code`.
 A [link](google.com) and some **tools**[.tools].
 
-this *is italic* [.special]*marked* text
+this *[.special]is italic* *marked* text
 
 **Version 2.4**
 
