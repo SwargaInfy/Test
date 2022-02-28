@@ -12,10 +12,10 @@ A [link](google.com) and some **tools**.
 this *{:.special}is italic* *marked* text
 
 
-This *{:.underline}is* some `{:#id}{:.class}code`.
+This *{:.underline}is* some `{:.class}code`.
 A [link](google.com) and some **{:.tools}tools**.
 
-this *is italic*{::}*{:.special}marked* text
+this *is italic* *{:.special}marked* text
 
 **Version 2.4**
 
