@@ -1,6 +1,5 @@
 #Hii this is for testing
 
-Content title
 {:.pTag line}Content description
 
 1. {:.quote} Item 1
@@ -10,10 +9,6 @@ Content title
 A [link](google.com) and some **tools**.
 
 this *{:.special}is italic* *marked* text
-
-
-This *{:.underline}is* some `{:.class}code`.
-A [link](google.com) and some **{:.tools}tools**.
 
 this *is italic* *{:.special}marked* text
 
