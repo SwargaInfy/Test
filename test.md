@@ -1,5 +1,476 @@
-<svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="498.288px" height="353.361px" viewBox="0 0 498.288 353.361" style="enable-background:new 0 0 498.288 353.361;" xml:space="preserve" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify" contentScriptType="application/ecmascript" contentStyleType="text/css"><defs><style type="text/css">@import url(/content/dam/develop/public/us/en/include/css/myriadPro.css);</style></defs><switch><foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
-		<i:pgfRef xlink:href="#adobe_illustrator_pgf">
-		</i:pgfRef>
-	</foreignObject><g i:extraneous="self"><symbol id="_x2E_5_pt_Connection_Dot_1_" viewBox="-2.227 -2.227 4.453 4.453" preserveAspectRatio="xMidYMid meet"><circle cx="0" cy="0" r="2.227"/></symbol><symbol id="Deleted_Symbol" viewBox="-5.235 -18 10.47 36" preserveAspectRatio="xMidYMid meet"><g><g><line style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" x1="0.029" y1="-10.465" x2="0.029" y2="18"/><g><polygon points="5.235,-8.933 0,-18 -5.235,-8.933       "/></g></g></g></symbol><g id="Folder"/><g id="Single_File"/><g id="Single_File_1_"/><g id="Multiple_Files"/><text transform="matrix(1 0 0 1 41.4274 86.4166)" style="font-family:'MyriadPro-Cond'; font-size:14px;">Expected Data</text><text transform="matrix(1 0 0 1 438.0757 86.4166)" style="font-family:'MyriadPro-Cond'; font-size:14px;">Received Data</text><g><rect x="281.78" y="190.537" style="fill:#D2EDF3;stroke:#000000;stroke-width:0.5647;" width="99" height="162.542"/><text transform="matrix(1 0 0 1 312.6318 275.9165)" style="font-family:'MyriadPro-Cond'; font-size:14px;">HDMI RX</text><rect x="160.28" y="190.537" style="fill:#D2EDF3;stroke:#000000;stroke-width:0.5647;" width="99" height="162.542"/><text transform="matrix(1 0 0 1 191.5168 275.9165)" style="font-family:'MyriadPro-Cond'; font-size:14px;">HDMI TX</text><g><g><line style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" x1="259.28" y1="271.807" x2="274.245" y2="271.807"/><g><polygon points="272.713,277.013 281.78,271.779 272.713,266.543       "/></g></g></g></g><g><g><line style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" x1="100.78" y1="204.307" x2="152.744" y2="204.307"/><g><polygon points="151.213,209.513 160.28,204.279 151.213,199.043      "/></g></g></g><g><g><line style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" x1="100.78" y1="247.307" x2="152.744" y2="247.307"/><g><polygon points="151.213,252.513 160.28,247.279 151.213,242.043      "/></g></g></g><g><g><line style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" x1="100.78" y1="294.307" x2="152.744" y2="294.307"/><g><polygon points="151.213,299.513 160.28,294.279 151.213,289.043      "/></g></g></g><g><rect x="0.28" y="190.807" style="fill:#FFFFFF;stroke:#000000;stroke-width:0.559;stroke-miterlimit:10;" width="100" height="27"/><text transform="matrix(1 0 0 1 28.6079 208.4166)" style="font-family:'MyriadPro-Cond'; font-size:14px;">Video TPG</text><rect x="0.28" y="235.807" style="fill:#FFFFFF;stroke:#000000;stroke-width:0.559;stroke-miterlimit:10;" width="100" height="27"/><text transform="matrix(1 0 0 1 10.9754 253.4166)" style="font-family:'MyriadPro-Cond'; font-size:14px;">Audio Sample Gen</text><rect x="0.28" y="280.807" style="fill:#FFFFFF;stroke:#000000;stroke-width:0.559;stroke-miterlimit:10;" width="100" height="27"/><text transform="matrix(1 0 0 1 15.3575 298.4166)" style="font-family:'MyriadPro-Cond'; font-size:14px;">Aux Sample Gen</text><rect x="0.28" y="325.807" style="fill:#FFFFFF;stroke:#000000;stroke-width:0.559;stroke-miterlimit:10;" width="100" height="27"/><text transform="matrix(1 0 0 1 3.45 343.4166)" style="font-family:'MyriadPro-Cond'; font-size:14px;">Sideband Sample Gen</text></g><g><g><line style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" x1="100.78" y1="337.307" x2="152.744" y2="337.307"/><g><polygon points="151.213,342.513 160.28,337.279 151.213,332.043      "/></g></g></g><g id="_x2E_5_pt_Connection_Dot"><circle cx="141.78" cy="337.307" r="2.227"/><circle cx="120.628" cy="247.307" r="2.227"/><circle cx="110.053" cy="204.307" r="2.227"/><circle cx="131.204" cy="294.307" r="2.227"/></g><g><rect x="210.03" y="0.307" style="fill:#FFFFFF;stroke:#000000;stroke-width:0.6149;stroke-miterlimit:10;" width="121" height="27"/><text transform="matrix(1 0 0 1 232.4083 17.9166)" style="font-family:'MyriadPro-Cond'; font-size:14px;">Video Data Check </text></g><g><rect x="210.03" y="45.307" style="fill:#FFFFFF;stroke:#000000;stroke-width:0.6149;stroke-miterlimit:10;" width="121" height="27"/><text transform="matrix(1 0 0 1 233.1643 62.9166)" style="font-family:'MyriadPro-Cond'; font-size:14px;">Audio Data Check</text></g><g><rect x="210.03" y="90.307" style="fill:#FFFFFF;stroke:#000000;stroke-width:0.6149;stroke-miterlimit:10;" width="121" height="27"/><text transform="matrix(1 0 0 1 237.5459 107.9166)" style="font-family:'MyriadPro-Cond'; font-size:14px;">Aux Data Check</text></g><g><rect x="210.03" y="135.307" style="fill:#FFFFFF;stroke:#000000;stroke-width:0.6149;stroke-miterlimit:10;" width="121" height="27"/><text transform="matrix(1 0 0 1 225.6391 152.9166)" style="font-family:'MyriadPro-Cond'; font-size:14px;">Sideband Data Check</text></g><g><g><polyline style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" points="202.833,13.474 109.812,13.474       109.812,13.474 109.812,204.695     "/><g><polygon points="201.301,8.238 210.368,13.474 201.301,18.71      "/></g></g></g><g><g><polyline style="fill:none;stroke:#000000;stroke-width:0.4939;stroke-miterlimit:10;" points="202.592,58.807 120.479,58.807       120.479,58.807 120.479,245.361     "/><g><polygon points="201.079,53.636 210.035,58.807 201.079,63.979      "/></g></g></g><g><g><polyline style="fill:none;stroke:#000000;stroke-width:0.4978;stroke-miterlimit:10;" points="202.305,103.807       131.251,103.807 131.251,103.807 131.251,293.361     "/><g><polygon points="200.78,98.595 209.807,103.807 200.78,109.02      "/></g></g></g><g><g><polyline style="fill:none;stroke:#000000;stroke-width:0.4943;stroke-miterlimit:10;" points="202.919,148.807       141.812,148.807 141.812,148.807 141.812,335.695     "/><g><polygon points="201.405,143.631 210.368,148.807 201.405,153.983      "/></g></g></g><g><g><polyline style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" points="338.348,13.474 431.368,13.474       431.368,13.474 431.368,204.307 429.946,204.307 380.446,204.307     "/><g><polygon points="339.879,18.71 330.812,13.474 339.879,8.238      "/></g></g></g><g><g><polyline style="fill:none;stroke:#000000;stroke-width:0.4939;stroke-miterlimit:10;" points="338.255,58.807 420.368,58.807       420.368,58.807 420.368,247.307 419.946,247.307 380.446,247.307     "/><g><polygon points="339.768,63.979 330.812,58.807 339.768,53.636      "/></g></g></g><g><g><polyline style="fill:none;stroke:#000000;stroke-width:0.4978;stroke-miterlimit:10;" points="338.315,103.807       409.368,103.807 409.368,103.807 409.368,294.307 407.946,294.307 380.446,294.307     "/><g><polygon points="339.84,109.02 330.812,103.807 339.84,98.595      "/></g></g></g><g><g><polyline style="fill:none;stroke:#000000;stroke-width:0.4943;stroke-miterlimit:10;" points="338.262,148.807       399.368,148.807 399.368,148.807 399.368,337.307 397.946,337.307 380.446,337.307     "/><g><polygon points="339.776,153.983 330.812,148.807 339.776,143.631      "/></g></g></g></g></switch><i:pgf id="adobe_illustrator_pgf">
-</i:pgf></svg>
+**Version 2.4**
+
+Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
+Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
+
+## Table Of Contents
+- [Headers](#headers-h2)
+- [General text styling](#general-text-styling)
+    - [Special Characters](#special-characters)
+    - [Links](#links)
+    - [Block Quotes](#block-quotes)
+    - [CSS Attribution - Requested](#css-attribution---requested)
+    - [Footnotes](#footnotes)
+- [Examples of math in .md](#examples-of-math-in-md)
+- [Code on your page](#code-on-your-page)
+- [Lists](#lists)
+    - [Ordered list](#creating-an-ordered-list)
+    - [Unordered list](#creating-unordered-lists)
+- [Tables](#tables)
+- [Collapsible sections](#a-collapsible-section-with-markdown)
+- [Images](#images)
+- [Videos](#videos)
+- [FAQ](#faq)
+
+
+
+## Headers (H2)
+Make sure you don't use the single # for any headers. Only the title of your article should be an H1. This isn't just a visual thing, this will impact your SEO score in google.
+Always start with the ##.
+
+### Sub header level 3 (H3)
+#### Sub header level 4 (H4)
+##### Sub header Level 5 (rarely used) 
+
+<br><br>
+***
+
+## General text styling
+```markdown
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+```
+
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+
+Superscript and Subscript doesn't seem to work at the moment.
+```markdown
+Superscript
+H~2~O
+
+Subscript
+X^2^
+```
+
+Superscript example: H~2~O
+
+Subscript example: X^2^
+
+:bulb: 🖥️ :d
+
+### Special Characters
+The following are special characters in markdown. When used in a sentence, they transfer to AEM just fine. If you're having issues with any of these characters, try preceeding them with a backslash.
+
+- \\ backslash itself
+- \` backtick
+- \* asterisk
+- \_ underscore
+- \{ \} curly braces
+- \[ \] square brackets
+- \( \) parentheses
+- \# hash mark
+- \+ plus sign
+- \- minus sign (hyphen)
+- \. dot
+- \! exclamation mark
+
+```
+\\ backslash itself
+\` backtick
+\* asterisk
+\_ underscore
+\{ \} curly braces
+\[ \] square brackets
+\( \) parentheses
+\# hash mark
+\+ plus sign
+\- minus sign (hyphen)
+\. dot
+\! exclamation mark
+```
+
+<br><br>
+***
+### Links
+```markdown
+[Intel](https://www.intel.com).
+```
+Example:
+My favorite company is [Intel](https://www.intel.com).
+
+mailto:
+(note for spam reasons, we discourage use of email links)
+[example@gitlab.com](mailto:example@gitlab.com)
+
+Anchor Links: link to another part of the same article [Table of Contents](#table-of-contents).
+```
+[Table of Contents](#table-of-contents)
+```
+
+<br><br>
+***
+### Block quotes
+This doesn't work with our template. We have requested some code updates so that block quotes actually render properly on articles. I will update this file once that is done.
+
+```markdown
+> We're living the future so
+> the present is our past.
+```
+
+> We're living the future so
+> the present is our past.
+
+<br><br>
+***
+### CSS Attribution - Requested
+
+Another Item we are exploring is the ability to call the css that is used on the site. This isn't working yet. I will update once we have the functionality in place. There are two options IT is exploring. 
+We have requested that IT add this feature so we can call certain css properties into markdown.
+
+{:.greyHighlight}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+<br><br>
+***
+### Footnotes 
+Footnotes aren't working as expected. I have raised a ticket with IT to see if they can enable this feature.
+```markdown
+Here's a sentence with a footnote. [^1]  
+  
+[^1]: This is the footnote.
+```
+Here's a sentence with a footnote. [^2]  
+  
+[^2]: This is another footnote to go with the first.
+
+<br><br>
+***
+## Examples of math in .md
+
+This expression $\sum_{i=1}^n X_i$ is inlined but doesn't work at the moment.
+
+When this is a full expression, it works fine.
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
+
+
+<br><br>
+***
+## Code on your page
+Adding code into your sentence is simple. 
+```markdown
+`this is your code`
+```
+
+Example
+Some `inline code` if you need to put inside a sentence.
+
+
+If you have javascript:
+```javascript
+// An highlighted block
+var foo = 'bar';
+```
+
+A very common one on the DevZone is bash
+```bash
+export I_MPI_ROOT=/opt/intel/oneapi/lib/intel64
+export PATH=${I_MPI_ROOT}/libfabric/bin:${I_MPI_ROOT}/bin:$PATH
+export LD_LIBRARY_PATH=${I_MPI_ROOT}/libfabric:${I_MPI_ROOT}:$LD_LIBRARY_PATH
+export FI_PROVIDER_PATH=${I_MPI_ROOT}/libfabric
+```
+
+<details>
+  <summary>Expand to see the full list of available skins</summary>
+  <br>
+
+* plaintext
+* abap
+* actionscript
+* apacheconf
+* applescript
+* aspnet
+* bash
+* basic
+* c
+* coffeescript
+* cpp
+* csharp
+* css
+* d
+* dart
+* diff
+* docker
+* erlang
+* fortran
+* fsharp
+* git
+* go
+* groovy
+* haskell
+* html
+* http
+* ini
+* java
+* javascript
+* lua
+* makefile
+* markdown
+* matlab
+* nginx
+* objectivec
+* pascal
+* perl
+* php
+* prolog
+* python
+* puppet
+* r
+* ruby
+* rust
+* sas
+* scala
+* scheme
+* sql
+* swift
+* twig
+* vim
+* xmlxhtml
+* yaml
+</details>
+
+
+<br><br>
+***
+## Lists
+### Creating an ordered list
+1. First item  
+2. Second item  
+3. Third item  
+4. Fourth item
+
+This will also do the same thing
+1. First item  
+1. Second item  
+1. Third item  
+1. Fourth item
+
+This will also do the same thing
+1. First item  
+8. Second item  
+3. Third item  
+5. Fourth item
+
+Most of the time a MD editor will try to fix your list numbering
+You can also indent by adding a few spaces.
+
+
+An example of a horizontal rule
+```markdown
+***
+```
+***
+
+
+<br><br>
+***
+### Creating Unordered Lists
+- First item  
+- Second item  
+- Third item  
+- Fourth item
+
+**Split Lists**
+- list one - item 1
+- list one - item 2
+     - sub item 1
+     - sub item 2
+- list one - item 3
+<br><br>
+- list two - item A
+- list two - item B
+
+
+<br><br>
+***
+## Tables
+
+```markdown
+| Syntax | Description |  
+| ----------- | ----------- |  
+| Header | Title |  
+| Paragraph | Text |
+```
+
+| Syntax | Description |  
+| ----------- | ----------- |  
+| Header | Title |  
+| Paragraph | Text |
+
+
+<br><br>
+***
+## A collapsible section with markdown
+This does work within the article template. THe arrow is a bit large, but I will see if there is a way to get it updated.
+Code:
+```markdown
+<details>
+  <summary>Click to expand!</summary>
+  <br>
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+```
+Example
+<details>
+  <summary>Click to expand!</summary>
+  <br>
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
+
+<br><br>
+***
+
+## Images
+
+To include an image from intel.com, you can do a relative link. Make sure you put all stock imagery, marketing imagery, logos, and photos of people in intel.com where we monitor licensing and expiry dates. You can use the relative path to your image.
+
+```markdown
+![This is your Alt Text](/content/dam/www/central-libraries/us/en/images/oneapi-kits20211-4x3-rwd.png)
+```
+
+![This is your Alt Text](/content/dam/www/central-libraries/us/en/images/oneapi-kits20211-4x3-rwd.png)
+
+<br>
+You can also choose to host your screenshots, diagrams, terminal window images in your repo. Just remember, you are now supporting the live site. Don't move or delete images without updating your article. Also, make sure to use the full github URL and not a relative path.
+
+![This is your Alt Text](https://raw.githubusercontent.com/tracyjohnsonidz/devzone-articles/main/diagram-full-workflow-16x9.webp)
+
+<br><br>
+code graphis are not available for IDZ articles.
+```plantuml
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.1.0
+skinparam defaultTextAlignment center
+!include ICONURL/common.puml
+!include ICONURL/font-awesome-5/gitlab.puml
+!include ICONURL/font-awesome-5/java.puml
+!include ICONURL/font-awesome-5/rocket.puml
+!include ICONURL/font-awesome/newspaper_o.puml
+FA_NEWSPAPER_O(news,good news!,node) #White {
+FA5_GITLAB(gitlab,GitLab.com,node) #White
+FA5_JAVA(java,PlantUML,node) #White
+FA5_ROCKET(rocket,Integrated,node) #White
+}
+gitlab ..> java
+java ..> rocket
+```
+<br><br>
+***
+## Videos
+Go to the youtube video and copy the embed code. Just replace the iframe src url with your youtube video URL.
+
+```markdown
+<div>
+  <div style="position:relative;padding-top:56.25%;">
+    <iframe src="https://www.youtube.com/embed/c7st0drv54U" frameborder="0" allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  </div>
+</div>
+```
+
+<div>
+  <div style="position:relative;padding-top:56.25%;">
+    <iframe src="https://www.youtube.com/embed/c7st0drv54U" frameborder="0" allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  </div>
+</div>
+
+<br>
+
+You can also use this embed code for brightcove videos. Just replace the videoid= # in the embed code below
+To find the video ID, simply right click on the video on developer.intel.com and select **Player Information**. Video ID value is listed under Source.
+
+```markdown
+<div style="position: relative; display: block; max-width: 900px;">
+    <div style="padding-top: 56.25%;">
+      <iframe src="https://players.brightcove.net/740838651001/default_default/index.html?videoId=6286027295001" allowfullscreen="" allow="encrypted-media" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+  </div>
+</div>
+```
+
+<div style="position: relative; display: block; max-width: 900px;">
+  <div style="padding-top: 56.25%;">
+    <iframe src="https://players.brightcove.net/740838651001/default_default/index.html?videoId=6286027295001" allowfullscreen="" allow="encrypted-media" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+  </div>
+</div>
+
+multiple videos being added
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
+this is an anchor
+{: #hello-world}
+```markdown
+{: #hello-world}
+
+```
+**Note:** a note is something that needs to be mentioned but is apart from the context.
+{: .note}
+
+Can we embed code from github, here is a gitlab test.
+<!-- leave a blank line here -->
+<script src="https://gitlab.com/gitlab-org/gitlab-ce/snippets/1717978.js"></script>
+<!-- leave a blank line here -->
+
+{::options parse_block_html="false" /}
+
+<div class="center">
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
+
+<br><br>
+
+## FAQ:
+
+__Q: My .raw file isn't updating, thus AEM isn't pulling my most recent content.__
+
+A: Note, AEM pulls from github's raw file. The raw file is cached and only updaed every 3 minutes. Check if the .raw file shows the updates you're expecting. 
+
+__Q: AEM isn't pulling any content and not giving any errors.__
+
+A: Try adding some text in the body of AEM, then having AEM pull your content from GitHub. There's an open ticket for this now with IT. It should be resolved though (as of 5/12/22)
+
+A: Watchout for special characters. Not just the ones listed in the [special character section](#special-characters), but also, single and double quotes. GitHub is leniant about styled quotes like: `“Hello”`, AEM will not accept those unless they're in a code block or snippet. They must be straight double quotes: `"` . Similarly, single quotes `‘thank you’` must use staight single quote: `'`.
