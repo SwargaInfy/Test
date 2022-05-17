@@ -113,7 +113,7 @@ mailto:
 (note for spam reasons, we discourage use of email links)
 [example@gitlab.com](mailto:example@gitlab.com)
 
-Anchor Links: link to another part of the same article [Table of Contents](#table-of-contents).
+Anchor Links: link to another part of the same article [Table of Contents](#tableofcontents).
 ```
 [Table of Contents](#table-of-contents)
 ```
