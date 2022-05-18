@@ -3,37 +3,17 @@
 Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
 Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
 
-## Table Of Contents
-- [Headers](#headers-h2)
-- [General text styling](#general-text-styling)
-    - [Special Characters](#special-characters)
-    - [Links](#links)
-    - [Block Quotes](#block-quotes)
-    - [CSS Attribution - Requested](#css-attribution---requested)
-    - [Footnotes](#footnotes)
-- [Examples of math in .md](#examples-of-math-in-md)
-- [Code on your page](#code-on-your-page)
-- [Lists](#lists)
-    - [Ordered list](#creating-an-ordered-list)
-    - [Unordered list](#creating-unordered-lists)
-- [Tables](#tables)
-- [Collapsible sections](#a-collapsible-section-with-markdown)
-- [Images](#images)
-- [Videos](#videos)
-- [FAQ](#faq)
-
-
-
 ## Headers (H2)
 Make sure you don't use the single # for any headers. Only the title of your article should be an H1. This isn't just a visual thing, this will impact your SEO score in google.
 Always start with the ##.
 
 ### Sub header level 3 (H3)
 #### Sub header level 4 (H4)
-##### Sub header Level 5 (rarely used) 
+##### Sub header Level 5 (rarely used)
 
 <br><br>
 ***
+
 
 ## General text styling
 ```markdown
@@ -69,36 +49,10 @@ Subscript example: X^2^
 
 :bulb: 🖥️ :d
 
-### Special Characters
-The following are special characters in markdown. When used in a sentence, they transfer to AEM just fine. If you're having issues with any of these characters, try preceeding them with a backslash.
+# BURST team modifications:
+Superscript example: H<sub>2</sub>O
 
-- \\ backslash itself
-- \` backtick
-- \* asterisk
-- \_ underscore
-- \{ \} curly braces
-- \[ \] square brackets
-- \( \) parentheses
-- \# hash mark
-- \+ plus sign
-- \- minus sign (hyphen)
-- \. dot
-- \! exclamation mark
-
-```
-\\ backslash itself
-\` backtick
-\* asterisk
-\_ underscore
-\{ \} curly braces
-\[ \] square brackets
-\( \) parentheses
-\# hash mark
-\+ plus sign
-\- minus sign (hyphen)
-\. dot
-\! exclamation mark
-```
+Subscript example: X<sup>2</sup>
 
 <br><br>
 ***
@@ -113,13 +67,9 @@ mailto:
 (note for spam reasons, we discourage use of email links)
 [example@gitlab.com](mailto:example@gitlab.com)
 
-Anchor Links: link to another part of the same article [Table of Contents](#tableofcontents).
-```
-[Table of Contents](#table-of-contents)
-```
 
 <br><br>
-***
+****
 ### Block quotes
 This doesn't work with our template. We have requested some code updates so that block quotes actually render properly on articles. I will update this file once that is done.
 
@@ -130,18 +80,52 @@ This doesn't work with our template. We have requested some code updates so that
 
 > We're living the future so
 > the present is our past.
-
+> 
 <br><br>
-***
+****
+
 ### CSS Attribution - Requested
 
 Another Item we are exploring is the ability to call the css that is used on the site. This isn't working yet. I will update once we have the functionality in place. There are two options IT is exploring. 
 We have requested that IT add this feature so we can call certain css properties into markdown.
 
-{:.greyHighlight}
+{: .greyHighlight}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+# BURST team Modifications:
 
+{:.quote}Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
+Note:when loading github url into your page, it may take a number of tries to get the content to refresh. 
+
+
+{:.intro-paragraph}I am working with IT to resolve the bug. If you have just done an update in GitHub, then the already existing function for styles will be added
+
+# Testing
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eulo do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+{:.greyHighlight}it's best to wait for a few minutes to make sure you sync the latest version.This has the classname with customstyling
+
+
+## Headers (H2)
+
+{:.note}Make sure you don't use the single # for any headers. Only the title of your article should be an H1. This isn't just a visual thing, this will impact your SEO score in google.Always start with the ##.
+
+# List styling
+{:.intro-paragraph}
+<ul>
+  <li>Basic style</li>
+  <li>Custom style</li>
+  <li>Defined style</li>
+</ul>
+
+<ol>
+  <li>Configure</li>
+  <li>Paste the URL</li>
+  <li>Check the checkbox</li>
+  <li>Submit</li>
+</ol>
 <br><br>
 ***
 ### Footnotes 
@@ -156,6 +140,11 @@ Here's a sentence with a footnote. [^2]
 [^2]: This is another footnote to go with the first.
 
 <br><br>
+
+# BURST Team modification:
+New footnotes <sup id="a1">[1](#c2)</sup>
+
+(Added footnotes content at the bottom)
 ***
 ## Examples of math in .md
 
@@ -168,6 +157,17 @@ $$
 
 
 <br><br>
+
+# BURST Team modifications:
+
+This expression \\( \sum\_{i=1}^n X\_i \\) is inlined but doesn't work at the moment.
+ 
+When this is a full expression, it works fine.
+
+$$
+\\Gamma(z) = \\int_0^\\infty t^{z-1}e^{-t}dt\\,.
+$$
+
 ***
 ## Code on your page
 Adding code into your sentence is simple. 
@@ -461,16 +461,4 @@ Can we embed code from github, here is a gitlab test.
 
 </div>
 
-<br><br>
-
-## FAQ:
-
-__Q: My .raw file isn't updating, thus AEM isn't pulling my most recent content.__
-
-A: Note, AEM pulls from github's raw file. The raw file is cached and only updaed every 3 minutes. Check if the .raw file shows the updates you're expecting. 
-
-__Q: AEM isn't pulling any content and not giving any errors.__
-
-A: Try adding some text in the body of AEM, then having AEM pull your content from GitHub. There's an open ticket for this now with IT. It should be resolved though (as of 5/12/22)
-
-A: Watchout for special characters. Not just the ones listed in the [special character section](#special-characters), but also, single and double quotes. GitHub is leniant about styled quotes like: `“Hello”`, AEM will not accept those unless they're in a code block or snippet. They must be straight double quotes: `"` . Similarly, single quotes `‘thank you’` must use staight single quote: `'`.
+<b id="c2">1</b> Test footnote content here. [↩](#a1)
