@@ -488,4 +488,4 @@ A: Watchout for special characters. Not just the ones listed in the [special cha
 
 <sup id="f1">[[1]](#a1)</sup> This is the footnote1.
 
-<sup id="f2">[[1]](#a2)</sup> This is another footnote to go with the first.
+<sup id="f2">[[2]](#a2)</sup> This is another footnote to go with the first.
