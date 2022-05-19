@@ -1,24 +1,30 @@
-#Hii this is for testing
-
-{:.pTag line}Content description
-
-1. {:.quote} Item 1
-2. Item 2
-
-{:.quote}This *is* some `code`.
-A [link](google.com) and some **tools**.
-
-this *{:.special}is italic* *marked* text
-
-this *is italic* *{:.special}marked* text
-
 **Version 2.4**
 
-{:.pTag line} Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
+Welcome to the full test template for the github md import feature of AEM. This document covers all the styles availalbe and how to implement.
 Note: when loading github url into your page, it may take a number of tries to get the content to refresh. I am working with IT to resolve the bug. If you have just done an update in GitHub, it's best to wait for a few minutes to make sure you sync the latest version.
 
+## Table Of Contents
+- [Headers](#headersh2)
+- [General text styling](#generaltextstyling)
+    - [Special Characters](#specialcharacters)
+    - [Links](#links)
+    - [Block Quotes](#blockquotes)
+    - [Footnotes](#footnotes)
+- [Examples of math in .md](#examplesofmathinmd)
+- [Code on your page](#codeonyourpage)
+- [Lists](#lists)
+    - [Ordered list](#creatinganorderedlist)
+    - [Unordered list](#creatingunorderedlists)
+- [Tables](#tables)
+- [Collapsible sections](#acollapsiblesectionwithmarkdown)
+- [Images](#images)
+- [Videos](#videos)
+- [FAQ](#faq)
+
+
+
 ## Headers (H2)
-{:.note} Make sure you don't use the single # for any headers. Only the title of your article should be an H1. This isn't just a visual thing, this will impact your SEO score in google.
+Make sure you don't use the single # for any headers. Only the title of your article should be an H1. This isn't just a visual thing, this will impact your SEO score in google.
 Always start with the ##.
 
 ### Sub header level 3 (H3)
@@ -39,7 +45,7 @@ __This will also be bold__
 _You **can** combine them_
 ```
 
-{:.block} *This text will be italic*
+*This text will be italic*
 _This will also be italic_
 
 **This text will be bold**
@@ -56,9 +62,42 @@ Subscript
 X^2^
 ```
 
-Superscript example: H<sub>2</sub>O
+Superscript example: H~2~O
 
-Subscript example: X<sup>2</sup>
+Subscript example: X^2^
+
+:bulb: 🖥️ :d
+
+### Special Characters
+The following are special characters in markdown. When used in a sentence, they transfer to AEM just fine. If you're having issues with any of these characters, try preceeding them with a backslash.
+
+- \\ backslash itself
+- \` backtick
+- \* asterisk
+- \_ underscore
+- \{ \} curly braces
+- \[ \] square brackets
+- \( \) parentheses
+- \# hash mark
+- \+ plus sign
+- \- minus sign (hyphen)
+- \. dot
+- \! exclamation mark
+
+```
+\\ backslash itself
+\` backtick
+\* asterisk
+\_ underscore
+\{ \} curly braces
+\[ \] square brackets
+\( \) parentheses
+\# hash mark
+\+ plus sign
+\- minus sign (hyphen)
+\. dot
+\! exclamation mark
+```
 
 <br><br>
 ***
@@ -69,6 +108,16 @@ Subscript example: X<sup>2</sup>
 Example:
 My favorite company is [Intel](https://www.intel.com).
 
+mailto:
+(note for spam reasons, we discourage use of email links)
+[example@gitlab.com](mailto:example@gitlab.com)
+
+Anchor Links: link to another part of the same article [Table of Contents](#table-of-contents).
+Note: AEM wants the links to have no dashes in them. GitHub standard is to have dashes between multiple words, ex: `[Table of Contents](#table-of-contents)`
+
+```
+[Table of Contents](#tableofcontents)
+```
 
 <br><br>
 ***
@@ -82,7 +131,7 @@ This doesn't work with our template. We have requested some code updates so that
 
 > We're living the future so
 > the present is our past.
-> 
+
 <br><br>
 ***
 ### CSS Attribution - Requested
@@ -90,9 +139,13 @@ This doesn't work with our template. We have requested some code updates so that
 Another Item we are exploring is the ability to call the css that is used on the site. This isn't working yet. I will update once we have the functionality in place. There are two options IT is exploring. 
 We have requested that IT add this feature so we can call certain css properties into markdown.
 
-{:.greyHighlight}
+{:.greyHighlight} 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+```
+{:.greyHighlight} 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+```
 
 <br><br>
 ***
@@ -107,15 +160,31 @@ Here's a sentence with a footnote. [^2]
   
 [^2]: This is another footnote to go with the first.
 
+
+New footnotes <sup id="a1">[1](#c2)</sup>
+
+<b id="c2">1</b>Then from within footnote, link back to it
+
+Why do I need this line? Test footnote content here.(#a1)
+
+
+```markdown
+New footnotes <sup id="a1">[1](#c2)</sup>
+
+<b id="c2">1</b>Then from within footnote, link back to it
+
+Why do I need this line? Test footnote content here.(#a1)
+```
+
 <br><br>
 ***
 ## Examples of math in .md
 
-This expression \\(\\sum\_{i=1}^n X\_i\\) is inlined but doesn't work at the moment.
+This expression $\sum_{i=1}^n X_i$ is inlined but doesn't work at the moment.
 
 When this is a full expression, it works fine.
 $$
-\\Gamma(z) = \\int_0^\\infty t^{z-1}e^{-t}dt\\,.
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
 
 
@@ -209,7 +278,7 @@ export FI_PROVIDER_PATH=${I_MPI_ROOT}/libfabric
 ***
 ## Lists
 ### Creating an ordered list
-1. {:.quote}First item  
+1. First item  
 2. Second item  
 3. Third item  
 4. Fourth item
@@ -317,7 +386,24 @@ You can also choose to host your screenshots, diagrams, terminal window images i
 
 ![This is your Alt Text](https://raw.githubusercontent.com/tracyjohnsonidz/devzone-articles/main/diagram-full-workflow-16x9.webp)
 
-
+<br><br>
+code graphis are not available for IDZ articles.
+```plantuml
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.1.0
+skinparam defaultTextAlignment center
+!include ICONURL/common.puml
+!include ICONURL/font-awesome-5/gitlab.puml
+!include ICONURL/font-awesome-5/java.puml
+!include ICONURL/font-awesome-5/rocket.puml
+!include ICONURL/font-awesome/newspaper_o.puml
+FA_NEWSPAPER_O(news,good news!,node) #White {
+FA5_GITLAB(gitlab,GitLab.com,node) #White
+FA5_JAVA(java,PlantUML,node) #White
+FA5_ROCKET(rocket,Integrated,node) #White
+}
+gitlab ..> java
+java ..> rocket
+```
 <br><br>
 ***
 ## Videos
@@ -357,3 +443,59 @@ To find the video ID, simply right click on the video on developer.intel.com and
     <iframe src="https://players.brightcove.net/740838651001/default_default/index.html?videoId=6286027295001" allowfullscreen="" allow="encrypted-media" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
   </div>
 </div>
+
+multiple videos being added
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
+this is an anchor
+{: #hello-world}
+```markdown
+{: #hello-world}
+
+```
+**Note:** a note is something that needs to be mentioned but is apart from the context.
+{: .note}
+
+Can we embed code from github, here is a gitlab test.
+<!-- leave a blank line here -->
+<script src="https://gitlab.com/gitlab-org/gitlab-ce/snippets/1717978.js"></script>
+<!-- leave a blank line here -->
+
+{::options parse_block_html="false" /}
+
+<div class="center">
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/gitlab">@gitlab</a> for joining <a href="https://twitter.com/RailsGirlsCluj">@RailsGirlsCluj</a>! <a href="https://t.co/NOoiqDWKVY">pic.twitter.com/NOoiqDWKVY</a></p>&mdash; RailsGirlsCluj (@RailsGirlsCluj) <a href="https://twitter.com/RailsGirlsCluj/status/784847271645028352">October 8, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
+
+<br><br>
+
+## FAQ:
+
+__Q: My .raw file isn't updating, thus AEM isn't pulling my most recent content.__
+
+A: Note, AEM pulls from github's raw file. The raw file is cached and only updaed every 3 minutes. Check if the .raw file shows the updates you're expecting. 
+
+__Q: AEM isn't pulling any content and not giving any errors.__
+
+A: Try adding some text in the body of AEM, then having AEM pull your content from GitHub. There's an open ticket for this now with IT. It should be resolved though (as of 5/12/22)
+
+A: Watchout for special characters. Not just the ones listed in the [special character section](#special-characters), but also, single and double quotes. GitHub is leniant about styled quotes like: `“Hello”`, AEM will not accept those unless they're in a code block or snippet. They must be straight double quotes: `"` . Similarly, single quotes `‘thank you’` must use staight single quote: `'`.
+
+Some word or something that needs explaining[^1].
+
+[^1]: The explanation.
