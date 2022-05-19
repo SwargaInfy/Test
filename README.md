@@ -163,7 +163,7 @@ Here's a sentence with a footnote. [^2]
 
 Here's a sentence with a footnote1. <sup id="a1">[[1]](#f1)</sup>
 
-Here's a sentence with a footnote2. <sup id="a2">[[1]](#f2)</sup>  
+Here's a sentence with a footnote2. <sup id="a2">[[2]](#f2)</sup>  
 
 <br><br>
 ***
@@ -487,4 +487,5 @@ A: Watchout for special characters. Not just the ones listed in the [special cha
 
 
 <sup id="f1">[[1]](#a1)</sup> This is the footnote1.
-<sup id="a2">[[1]](#f2)</sup> This is another footnote to go with the first.
+
+<sup id="f2">[[1]](#a2)</sup> This is another footnote to go with the first.
