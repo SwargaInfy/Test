@@ -1,12 +1,13 @@
-Here is a simple footnote[^1].
+<!-- Line-breaks suiting auto-p in WordPress: -->
+Paragraph with a footnote<a id="a1" href="#f1"><sup>[1]</sup></a> and more text afterwards.
 
-A footnote can also have multiple lines[^2].  
+Another paragraph with another footnote<a id="a2" href="#f2"><sup>[2]</sup></a> and more text afterwards.
 
-You can also use words, to fit your writing style more closely[^note].
+<!-- At the end of all paragraphs: -->
+<footer class="footnotes">
 
-[^1]: My reference.
-[^2]: Every new line should be prefixed with 2 spaces.  
-  This allows you to have a footnote with multiple lines.
-[^note]:
-    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
-    This footnote also has been made with a different syntax using 4 spaces for new lines.
+<a id="f1" href="#a1">[1]</a> Footnote #1 here.
+
+<a id="f2" href="#a2">[2]</a> Footnote #2 here.
+
+</footer>
