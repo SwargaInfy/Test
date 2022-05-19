@@ -6,7 +6,7 @@ Another paragraph with another footnote<a id="a2" href="#f2"><sup>[2]</sup></a> 
 <!-- At the end of all paragraphs: -->
 <footer class="footnotes">
 
-<a id="f1">[[1]](#a1)</a> Footnote #1 here.
+<sup id="f1">[[1]](#a1)</sup> Footnote #1 here.
 
 <a id="f2" href="#a2">[2]</a> Footnote #2 here.
 
